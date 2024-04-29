@@ -1,0 +1,732 @@
+*{
+    box-sizing: border-box;
+}
+*, *::before, ::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: "Poppins", serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1306px;
+    margin: 0 auto;
+    width: 100%;
+}
+.head {
+    padding-top: 55px;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: 400;
+font-size: 36px;
+color: #000;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+
+}
+.bar_nav:hover{
+   opacity: 0.5;
+}
+
+.bar_nav {
+    text-decoration: none;
+    font-weight: 500;
+font-size: 20px;
+color: #263238;
+  
+}
+li{
+    list-style: none;
+}
+.btn_lets {
+    font-weight: 400;
+font-size: 24px;
+color: #000;
+border: 2px solid #263238;
+border-radius: 5px;
+width: 220px;
+height: 70px;
+background: transparent;
+}
+.btn_lets:hover{
+  background-color: #2a3246;
+  color: #fff;
+}
+
+
+/*learn_section*/
+.alltext_learn {
+    display: flex;
+    justify-content: space-between;
+    gap: 143px;
+    
+}
+.text_learn {
+    max-width: 40%;
+}
+.main_text_learn {
+    font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+color: #000;
+
+}
+
+.lamp{
+    width: 85px;
+    height: 85px;
+    margin-left: 400px;
+    margin-bottom: -250px;
+}
+.text_learn_p {
+    font-weight: 400;
+font-size: 24px;
+color: #8f95a5;
+padding-bottom: 40px;
+padding-bottom: 61px;
+}
+.btn_learn {
+    border-radius: 15px;
+width: 438px;
+height: 118px;
+font-weight: 400;
+font-size: 36px;
+color: #fff;
+background-color: #263238;
+border: none;
+}
+.btn_learn:hover{
+    opacity: 0.5;
+}
+
+.learn_img {
+    margin-top: 68px;
+    width: 661px;
+    height: 661px;
+}
+
+/*skills*/
+img{
+    max-width: 100%;
+}
+.skills_cards{
+    background: #f5f5f5;
+    border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ padding: 15px;
+
+}
+
+.text_skill {
+    padding-top: 103px;
+    padding-bottom: 92px;
+    font-weight: 600;
+font-size: 48px;
+line-height: 167%;
+color: #000;
+text-align: center;
+}
+.boxes_skill {
+    gap: 18px;
+    display: grid;
+    grid-template-areas: "one two three"
+    "one four four";
+    justify-content: space-evenly;
+    align-items: stretch;
+ 
+    
+}
+.card_speak{
+    grid-area: one;
+  
+}
+.card_writing{
+    grid-area: two;
+    align-items: end;
+ }  
+.card_reading{
+    grid-area: three;
+} 
+.card_listining{
+    grid-area: four;
+    flex-direction: row;
+    
+}
+.card_listining .grid_item_skills{
+    order: 1;
+   
+    
+}
+
+
+
+.skills_cards p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8f95a5;;
+    max-width: 435px;
+    margin-bottom: 35px;
+
+}
+.skills_grid_item h2{
+    font-weight: 600;
+font-size: 30px;
+line-height: 267%;
+color: #263238;
+}
+.skill_one{
+    max-width: 100%;
+}
+
+
+.btn_skills {
+border-radius: 5px;
+width: 218px;
+height: 60px;
+font-weight: 500;
+font-size: 20px;
+color: #fff;
+background: #263238;
+border: none;
+margin-bottom: 10px;
+}
+
+.btn_skills:hover{
+    opacity: 0.5;
+}
+.skills_card_body_text{
+   padding:20px;
+}
+
+
+/*about us*/
+.about {
+    padding: 200px 0;
+}
+.both_text_about{
+    display: flex;
+   justify-content: space-between
+  
+}
+.img_about{
+ margin-top: -110px;
+}
+.text_about {
+    margin-bottom: 30px;
+    font-weight: 600;
+font-size: 48px;
+line-height: 167%;
+color: #000;
+}
+.text_p_about {
+    font-weight: 400;
+font-size: 20px;
+color: #8f95a5;
+max-width: 635px;
+margin-bottom: 56px;
+}
+.text_colums {
+    display: flex;
+    gap: 100px; 
+  
+}
+.text_row {
+ text-align: center;
+}
+.zimmer {
+    font-weight: 600;
+font-size: 48px;
+line-height: 167%;
+color: #2a3246;
+
+}
+.text_zimmer {
+    font-weight: 400;
+font-size: 20px;
+color: #8f95a5;
+}
+
+/*price*/
+
+.pricing_text {
+    text-align: center;
+    margin-bottom: 83px;
+    font-weight: 600;
+font-size: 48px;
+line-height: 167%;
+color: #000;
+}
+.colums_price {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    align-items: center;
+}
+.pricing_items {
+    display: grid;
+    align-items:end;
+    grid-template-rows: 340px 80px 80px 100px;
+   
+}
+.price_img{
+    margin-bottom: 30px;
+}
+
+.text_under_img {
+   
+    font-weight: 600;
+font-size: 30px;
+line-height: 160%;
+color: #263238;
+}
+.text_under_h3 {
+    height: 80%;
+    font-weight: 400;
+font-size: 20px;
+color: #8f95a5;
+
+}
+
+.text_cost_pp{
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: rgb(238, 238, 238);
+    padding: 0px 20px;
+    width: max-content;
+}
+.tag-duration {
+    
+    padding: 7px 11px;
+    font-weight: 400;
+font-size: 18px;
+color: #546269;
+
+}
+.tag-price{
+    font-weight: 400;
+font-size: 30px;
+color: #263238;
+}
+/*contacts*/
+.contact {
+    padding-top: 290px;
+}
+.contact_items {
+    display: flex;
+    gap: 20px;
+}
+
+.contact_img {
+    margin-top: -100px;
+}
+
+.textcontact {
+    font-weight: 600;
+font-size: 48px;
+line-height: 167%;
+color: #000;
+margin-bottom: 37px;
+}
+.text_co_p {
+    font-weight: 400;
+font-size: 20px;
+color: #8f95a5;
+margin-bottom: 52px;
+}
+.input_contact {
+    border: 1px solid #8f95a5;
+border-radius: 10px;
+width: 450px;
+height: 80px;
+font-weight: 400;
+font-size: 16px;
+color: #8f95a5;
+padding-left: 20px;
+}
+.btn_contact {
+    border-radius: 10px;
+width: 264px;
+height: 80px;
+background: #263238;
+font-weight: 500;
+font-size: 20px;
+color: #fff;
+border: none;
+}
+
+.btn_contact:hover{
+    opacity: 0.5;
+}
+/*footer*/
+.britrex {
+    padding-top: 220px;
+}
+.line_footer {
+    width: 1300px;
+height: 1px;
+background: #c4c4c4;
+margin-bottom: 55px;
+}
+
+
+.item_text_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_footer_row {
+    font-weight: 400;
+font-size: 24px;
+color: #8f95a5;
+margin-bottom: 58px;
+}
+
+@media screen and (max-width:1240px){
+   
+    .card_listining{
+        display: block;
+    }
+    .pricing_items {
+        display: grid;
+        align-items:end;
+        grid-template-rows: 340px 80px 80px 150px;
+       
+    }
+    .colums_price {
+        gap: 40px;
+        width: 250px;
+        padding: 80px;
+        
+    }
+    .item_text_img{
+        padding: 0 30px;
+    }
+    .both_text_about {
+        padding: 0 20px;
+}
+    .text_about { 
+    padding: 0 20px;
+}
+.text_colums{
+    gap: 40px;
+}
+
+.alltext_learn {
+padding: 0 20px;
+gap: 20px;
+}
+.btn_learn{
+    width: 320px;
+    height: 110px;
+}
+.learn_img{
+width: 55%;
+height: 45%;
+}
+.lamp{
+    margin-left: 280px;
+    margin-bottom: -180px;
+
+}
+.nav_menu{
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.input_contact{
+    width: 330px;
+    height: 70px;
+}
+.btn_contact{
+    width: 174px;
+    height: 70px;
+}
+.main_text_learn{
+font-size: 54px;
+ line-height: 50px;
+ margin-bottom: 15px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:900px){
+    .boxes_skill {
+        grid-template-areas: 
+        "one two "
+    "three four ";
+ 
+    }
+    .contact_img{
+         margin-top: 150px;
+         width: 243px;
+    }
+    .input_contact{
+        width: 220px
+    }
+    .btn_contact{
+        width: 134px;
+    }
+    .text_footer_row{
+        font-size: 14px;
+    }
+    .pricing_items{
+        width: 210px;
+        
+        
+    }
+    .colums_price {
+        gap: 20px;
+        padding: 40px;
+    }
+
+  
+    .text_under_h3{
+        width: 215px;
+        font-size: 18px;
+    }
+    .text_cost_pp{
+        width: 135px;
+
+    }
+    .tag-duration{
+        font-size: 10px;
+    }
+    .tag-price{
+        font-size: 15px;
+    }
+    .pricing_text{
+        margin: 0;
+    }
+    .contact{
+        padding-top: 200px;
+    }
+    .britrex {
+        padding-top: 100px;
+    }
+    .img_about{
+     width: 50%;
+     height: 70%;
+    }
+    .text_p_about{
+        font-size: 15px;
+    }
+    .text_zimmer {
+        font-size: 15px;
+    }
+    .zimmer {
+        font-size: 28px;
+    }
+    .main_text_learn{
+        font-size: 44px;
+        line-height: 50px;
+        margin-bottom: 15px;
+        }
+        .btn_lets {
+            width: 150px;
+            
+
+        }
+        .bar_nav {
+            font-size: 15px;
+        }
+
+        .line_footer {
+            max-width: 700px;
+            margin-bottom: 30px;
+           
+        }
+        .text_co_p {
+            max-width: 392px;
+        }
+        .textcontact {
+            font-size: 35px;
+            padding: 5px;
+            margin-bottom: 20px;
+    }
+    .container {
+        max-width: 707px;
+        margin: 0 21px 0 39px;
+    }
+
+    .lamp{
+        margin-left: 230px;
+    }
+    
+    .contact_items{
+        gap: 60px;
+       
+    }
+}
+
+    @media screen and (max-width:700px){
+    .boxes_skill {
+        grid-template-areas: 
+        "one" 
+        "two "
+        "three" 
+        "four ";
+        
+    }
+
+    .line_footer {
+        max-width: 500px;
+       
+    }
+
+    
+}
+
+@media screen and (max-width:500px){
+
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+     
+    }
+    .nav_menu {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+       
+    }
+    .alltext_learn {
+        display: flex;
+       flex-direction: column-reverse;
+    }
+
+    .learn_img {
+        width: 100%;
+        height: 90%;
+    }
+    .main_text_learn{
+        width: 391px;
+    }
+    .text_learn_p {
+        margin-top: 40px;
+        width: 300px;
+       
+    }
+    .both_text_about {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    .img_about{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .text_about{
+        text-align: center;
+
+    }
+    .colums_price {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding-right: 30px;
+    }
+
+    .pricing_items{
+        width: 300%;
+        align-items: center;
+    }
+    .text_under_h3{
+        width: 300px;
+        text-align: center;
+    }
+    .tag-price{
+      font-size: 30px;
+    }
+    .tag-duration{
+        font-size: 20px;
+    }
+    .text_cost_pp {
+        width: 235px;
+       
+        
+    }
+    .text_under_img {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contact_items{
+       padding: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_img{
+        margin-top: 50px;
+        width: 350px;
+       
+        
+    }
+
+
+
+     .text_co_p {
+    
+    }
+    .input_contact {
+        width: 275px;
+    }
+    .btn_contact {
+       margin-top: 10px;
+        width: 189px;
+    }
+     .logo_text{
+       width: 250px;
+     }
+    .item_text_img{
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+.line_footer{
+    width: 400px;
+}
+.pricing_items {
+    width: 150px;
+   
+}
+
+.btn_learn {
+    width: 220px;
+    height: 100px;
+}
+.btn_learn{
+    font-size: 26px;
+}
+
+.contact{
+   padding: 0;
+}
+}
